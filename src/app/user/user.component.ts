@@ -7,11 +7,8 @@ const randomUserIndex = Math.floor(Math.random() * DUMMY_USERS.length);
 
 @Component({
     selector: 'app-user',
-    standalone: true,
+    // standalone: true,
     templateUrl: './user.component.html',
-    imports: [
-        CardComponent
-    ],
     styleUrl: './user.component.css'
 })
 export class UserComponent {
